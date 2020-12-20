@@ -4,26 +4,22 @@
 2. ```bash 
     start-master.sh --webui-port 8001
     ```
-    
 3. ```bash 
-    apt install python3-pip
-   ```
-    
+   apt install python3-pip
+   ```   
 4. ```bash 
-    pip3 install poetry
+   pip3 install poetry
    ```
-
 5. ```bash
-    poetry install
+   poetry install
    ```
 6. ```bash 
-    poetry shell
+   poetry shell
    ```
 7. download London.csv
 8. ```bash 
-    spark-submit data_generation.py
-    ```
-    
+   spark-submit data_generation.py
+   ```
 9. ```bash 
-    spark-submit main.py
+   spark-submit main.py
    ```
