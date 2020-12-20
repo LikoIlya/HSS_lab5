@@ -2,8 +2,8 @@
 
 1. Correctly install spark (https://phoenixnap.com/kb/install-spark-on-ubuntu)
 2. ```bash 
-    start-master.sh --webui-port 8001
-    ```
+   start-master.sh --webui-port 8001
+   ```
 3. ```bash 
    apt install python3-pip
    ```   
